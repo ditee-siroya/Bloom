@@ -1,0 +1,33 @@
+<!doctype html>
+<title>FlowerVase</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- link CSS file-this.css -->
+    <link rel="stylesheet" type="text/css" href="flower.css" />
+     <!-- link js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="flowerbloom.js"></script>
+	
+        </head>
+
+    <body id="image-container">
+        <div id="layout">
+            <div id="item2center"></div>
+        </div>
+        <!-- <h6>Click to add flowers to the vases</h6> -->
+        <audio id="myAudio">
+            <source src="plop-fancade.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <script>
+            document.addEventListener("click", function() {
+                var audio = document.getElementById("myAudio");
+                audio.play();
+            });
+        </script>
+    </body>
